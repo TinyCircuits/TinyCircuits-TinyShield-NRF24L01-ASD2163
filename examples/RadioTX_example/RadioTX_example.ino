@@ -21,7 +21,7 @@
 #include <RH_RF22.h>
 #include <RH_NRF24.h>
 
-#define use433 0  //1 if using 433MHz radio, 0 if using NRF24L01
+#define use433 0  // 1 if using 433MHz radio, 0 if using NRF24L01
 
 #if(use433)
 RH_RF22 nrf24(7, 3);
